@@ -10,8 +10,8 @@ import java.util.List;
  */
 public class EasyUIDataGridResult implements Serializable {
 	
-	private Integer total;
-	private List rows;
+	private Integer total; // 记录分页查询的总条数
+	private List rows; // 记录每页查询多少行数据
 	
 	public Integer getTotal() {
 		return total;
